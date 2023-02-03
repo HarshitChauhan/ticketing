@@ -4,13 +4,14 @@
   "description": "A authentication microservice for Ticketing project. ",
   "main": "index.js",
   "scripts": {
-    "start" : "ts-node-dev src/index.ts"
+    "start": "ts-node-dev src/index.ts"
   },
   "author": "harshitkumar2503@gmail.com",
   "license": "ISC",
   "dependencies": {
     "@types/express": "^4.17.16",
     "express": "^4.18.2",
+    "express-validator": "^6.14.3",
     "ts-node-dev": "^2.0.0",
     "typescript": "^4.9.5"
   }
